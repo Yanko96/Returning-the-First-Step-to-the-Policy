@@ -1,0 +1,23 @@
+{
+  "gen1_const": {
+    "n": 150,
+    "hit1_lower_bound": 0.0671,
+    "probe_ge_995": 0.11333333333333333,
+    "median_miss_ratio": 0.9224806201550387,
+    "mean_ratio": 0.924330627732219
+  },
+  "gen2_unif": {
+    "n": 150,
+    "hit1_lower_bound": 0.0557,
+    "probe_ge_995": 0.006666666666666667,
+    "median_miss_ratio": 0.9410021189231478,
+    "mean_ratio": 0.9298789342741048
+  },
+  "gen3_dist": {
+    "n": 150,
+    "hit1_lower_bound": 0.0171,
+    "probe_ge_995": 0.12,
+    "median_miss_ratio": 0.9529437785242494,
+    "mean_ratio": 0.9407501732390255
+  }
+}

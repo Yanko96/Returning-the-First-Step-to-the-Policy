@@ -1,0 +1,20 @@
+{
+  "arm": "pomo",
+  "ckpt": "checkpoints/pomo_op500_T9_seed42/last.ckpt",
+  "dataset": "eval_sets/eval_op_n500_seed20260907.pkl",
+  "dataset_md5": "c9ee904168bfd883ffafb5d1e70f363f",
+  "n": 500,
+  "budget": 9.0,
+  "holdout": "",
+  "pool": "",
+  "n_inst": 1000,
+  "device": "cuda",
+  "pool_k": 50,
+  "pool_seed_base": 770000,
+  "permute_labels": false,
+  "schemes": {
+    "pomo_oneshot": {
+      "mean": 161.529984
+    }
+  }
+}

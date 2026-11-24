@@ -1,0 +1,17 @@
+{
+  "ckpt": "anchor_s43.ckpt",
+  "budget": 3.0,
+  "dataset": "data/op_dist50_test_seed1234.pkl",
+  "dataset_md5": "47a828139a9fcf1e642a060f40837d9e",
+  "n_eval": 1000,
+  "uniform_draws": 8,
+  "device": "cuda",
+  "chunks": {
+    "chunk": 200,
+    "ms": 50
+  },
+  "sas_oneshot_mean": 15.62073040008545,
+  "uniform_oneshot_mean": 14.368938446044922,
+  "oracle_mean": 16.07411003112793,
+  "head_top1_prob_mean": 0.9942400455474854
+}

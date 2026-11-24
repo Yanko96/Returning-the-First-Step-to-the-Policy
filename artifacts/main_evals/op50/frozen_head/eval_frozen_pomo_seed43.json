@@ -1,0 +1,46 @@
+{
+  "arm": "sas",
+  "ckpt": "outputs/frozen_head/frozen_pomo_seed43.ckpt",
+  "dataset": "data/op/op_dist50_test_seed1234.pkl",
+  "dataset_md5": "47a828139a9fcf1e642a060f40837d9e",
+  "n": 50,
+  "device": "cuda",
+  "chunks": {
+    "greedy": 2000,
+    "sampling1280": 8,
+    "multistart": 128,
+    "aug1280": 8,
+    "msaug": 12,
+    "ms10": 512,
+    "ms25": 256,
+    "greedy_head": 2000
+  },
+  "accounting": {
+    "msaug": "50x16",
+    "sampling": 1280,
+    "aug": 1280
+  },
+  "schemes": {
+    "multistart": {
+      "mean_best_prize": 15.9922,
+      "gap_pct": 1.099,
+      "wall_s": 4.5
+    },
+    "ms10": {
+      "mean_best_prize": 15.9615,
+      "gap_pct": 1.289,
+      "wall_s": 1.4
+    },
+    "ms25": {
+      "mean_best_prize": 15.9899,
+      "gap_pct": 1.114,
+      "wall_s": 2.4
+    },
+    "greedy_head": {
+      "mean_best_prize": 15.5576,
+      "gap_pct": 3.787,
+      "wall_s": 0.6,
+      "note": "1-rollout head-argmax first step"
+    }
+  }
+}

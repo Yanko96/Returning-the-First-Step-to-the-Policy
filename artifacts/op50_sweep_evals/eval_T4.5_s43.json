@@ -1,0 +1,17 @@
+{
+  "ckpt": "checkpoints/sas_op50_T4.5_seed43/last.ckpt",
+  "budget": 4.5,
+  "dataset": "data/op_dist50_test_seed1234.pkl",
+  "dataset_md5": "47a828139a9fcf1e642a060f40837d9e",
+  "n_eval": 1000,
+  "uniform_draws": 8,
+  "device": "cuda",
+  "chunks": {
+    "chunk": 200,
+    "ms": 50
+  },
+  "sas_oneshot_mean": 23.162620544433594,
+  "uniform_oneshot_mean": 22.083114624023438,
+  "oracle_mean": 23.588930130004883,
+  "head_top1_prob_mean": 0.9928545951843262
+}

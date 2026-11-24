@@ -1,0 +1,56 @@
+{
+  "arm": "pomo",
+  "ckpt": "checkpoints/pomo_op50_seed43/epoch099.ckpt",
+  "dataset": "data/op/op_dist100_test_seed1234.pkl",
+  "dataset_md5": "53eeff929a4339563a044b9fdee5fd69",
+  "n": 100,
+  "device": "cuda",
+  "chunks": {
+    "greedy": 2000,
+    "sampling1280": 8,
+    "multistart": 128,
+    "aug1280": 8,
+    "msaug": 12,
+    "ms10": 512,
+    "ms25": 256,
+    "greedy_head": 2000,
+    "ms50": 256
+  },
+  "accounting": {
+    "msaug": "100x16",
+    "sampling": 1280,
+    "aug": 1280
+  },
+  "schemes": {
+    "greedy": {
+      "mean_best_prize": 27.0931,
+      "gap_pct": 18.37,
+      "wall_s": 1.9
+    },
+    "multistart": {
+      "mean_best_prize": 30.869,
+      "gap_pct": 6.993,
+      "wall_s": 8.1
+    },
+    "msaug": {
+      "mean_best_prize": 31.7986,
+      "gap_pct": 4.192,
+      "wall_s": 93.9
+    },
+    "ms10": {
+      "mean_best_prize": 30.1296,
+      "gap_pct": 9.221,
+      "wall_s": 2.6
+    },
+    "ms25": {
+      "mean_best_prize": 30.5296,
+      "gap_pct": 8.016,
+      "wall_s": 4.3
+    },
+    "ms50": {
+      "mean_best_prize": 30.7313,
+      "gap_pct": 7.408,
+      "wall_s": 4.4
+    }
+  }
+}

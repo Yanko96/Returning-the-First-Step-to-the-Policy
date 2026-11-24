@@ -1,0 +1,49 @@
+{
+  "n": 200,
+  "count": 1000,
+  "nshards": 1,
+  "shard": 1000,
+  "namespace": "holdout",
+  "geometry": "mix",
+  "seed": 20260808,
+  "pool_seed": null,
+  "entropy": [
+    20260808,
+    2
+  ],
+  "ns_id": 2,
+  "mix": {
+    "pu": 0.1,
+    "pc": 0.54,
+    "ph": 0.22,
+    "pdp": 0.14
+  },
+  "dp": [
+    [
+      2,
+      4
+    ],
+    [
+      0.8,
+      2.0
+    ],
+    [
+      0.1,
+      0.45
+    ]
+  ],
+  "regime_frac": {
+    "uniform": 0.086,
+    "gmm": 0.561,
+    "hardcore": 0.215,
+    "density_partition": 0.138
+  },
+  "scheme_frac": {
+    "const": 0.328,
+    "unif": 0.309,
+    "dist": 0.363
+  },
+  "alpha_mean": 0.4999,
+  "L_mean": 10.0053,
+  "wall_s": 85.6
+}

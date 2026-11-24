@@ -1,0 +1,38 @@
+{
+  "arm": "sas",
+  "ckpt": "checkpoints/sas_op100_T4_seed43/epoch099.ckpt",
+  "dataset": "eval_sets/eval_op_n100_first1000.pkl",
+  "dataset_md5": "c4f468925cdccdbe2c96c20a71471fef",
+  "n": 100,
+  "budget": 4.0,
+  "holdout": "",
+  "pool": "",
+  "n_inst": 1000,
+  "device": "cuda",
+  "pool_k": 50,
+  "pool_seed_base": 770000,
+  "permute_labels": false,
+  "schemes": {
+    "best_of_full_oracle": {
+      "mean": 32.790939
+    },
+    "sas_oneshot": {
+      "mean": 32.125378
+    },
+    "uniform_oneshot": {
+      "mean": 30.276016
+    },
+    "best_of_50": {
+      "mean": 32.699127
+    },
+    "sas_at_50": {
+      "mean": 32.11216
+    }
+  },
+  "full_oracle": {
+    "kmax": 100,
+    "feas_mean": 100.0,
+    "feas_min": 100,
+    "best50_over_fulloracle": 0.9972
+  }
+}

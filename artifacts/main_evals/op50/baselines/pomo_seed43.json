@@ -1,0 +1,104 @@
+{
+  "backbone": "pomo",
+  "ckpt": "checkpoints/pomo_op50_seed43/epoch099.ckpt",
+  "dataset": "data/op/op_dist50_test_seed1234.pkl",
+  "dataset_md5": "47a828139a9fcf1e642a060f40837d9e",
+  "n": 50,
+  "n_inst": 10000,
+  "device": "NVIDIA A100-SXM4-80GB",
+  "reference": 16.17,
+  "sample_seed_base": 20260708,
+  "schemes": {
+    "rule1": {
+      "rollouts": 1,
+      "chunk": 2000,
+      "mean_best_prize": 15.3871,
+      "gap_pct": 4.842,
+      "wall_s": 0.8
+    },
+    "rule10": {
+      "rollouts": 10,
+      "chunk": 512,
+      "mean_best_prize": 15.9104,
+      "gap_pct": 1.605,
+      "wall_s": 1.5
+    },
+    "rule25": {
+      "rollouts": 25,
+      "chunk": 256,
+      "mean_best_prize": 15.9595,
+      "gap_pct": 1.302,
+      "wall_s": 2.5
+    },
+    "rule50": {
+      "rollouts": 50,
+      "chunk": 128,
+      "mean_best_prize": 15.9922,
+      "gap_pct": 1.099,
+      "wall_s": 4.4
+    },
+    "samp1": {
+      "rollouts": 1,
+      "chunk": 512,
+      "mean_best_prize": 14.2417,
+      "gap_pct": 11.925,
+      "wall_s": 1.3
+    },
+    "samp10": {
+      "rollouts": 10,
+      "chunk": 512,
+      "mean_best_prize": 15.6822,
+      "gap_pct": 3.017,
+      "wall_s": 1.5
+    },
+    "samp25": {
+      "rollouts": 25,
+      "chunk": 512,
+      "mean_best_prize": 15.8898,
+      "gap_pct": 1.733,
+      "wall_s": 1.6
+    },
+    "samp50": {
+      "rollouts": 50,
+      "chunk": 512,
+      "mean_best_prize": 15.9933,
+      "gap_pct": 1.093,
+      "wall_s": 1.7
+    },
+    "libsamp10": {
+      "rollouts": 10,
+      "chunk": 512,
+      "mean_best_prize": 15.6743,
+      "gap_pct": 3.066,
+      "wall_s": 1.6
+    },
+    "libsamp25": {
+      "rollouts": 25,
+      "chunk": 512,
+      "mean_best_prize": 15.8899,
+      "gap_pct": 1.732,
+      "wall_s": 1.7
+    },
+    "beam10": {
+      "rollouts": 10,
+      "chunk": 256,
+      "mean_best_prize": 15.6971,
+      "gap_pct": 2.925,
+      "wall_s": 3.0
+    },
+    "beam25": {
+      "rollouts": 25,
+      "chunk": 256,
+      "mean_best_prize": 15.8988,
+      "gap_pct": 1.677,
+      "wall_s": 3.2
+    },
+    "beam50": {
+      "rollouts": 50,
+      "chunk": 256,
+      "mean_best_prize": 15.9957,
+      "gap_pct": 1.078,
+      "wall_s": 3.3
+    }
+  }
+}

@@ -1,0 +1,1038 @@
+{
+ "set": "oplib",
+ "instrument": "budget_sweep_stakes lite_solve verbatim",
+ "denominator": "16-restart reference best (the paper's stakes definition)",
+ "n_forced": 8,
+ "r_forced": 2,
+ "r_free": 8,
+ "seed0_base": 700000,
+ "budget": "per-instance normalized",
+ "n_inst": 102,
+ "stakes_mean": 0.24219593270909004,
+ "stakes_std": 0.0834748343836363,
+ "stakes_se": 0.00826524021653423,
+ "lite_free_over_ref_mean": 0.9095739799879388,
+ "clipped": 0,
+ "per_instance": [
+  {
+   "idx": 0,
+   "name": "eil51-gen1-50",
+   "gen": 1,
+   "n": 50,
+   "stakes": 0.1651785714285714,
+   "lite_free": 26.0,
+   "mean_forced": 23.375,
+   "ref_best": 28.0
+  },
+  {
+   "idx": 1,
+   "name": "eil51-gen2-50",
+   "gen": 2,
+   "n": 50,
+   "stakes": 0.15624999156249986,
+   "lite_free": 15.727272727272727,
+   "mean_forced": 13.636363636363637,
+   "ref_best": 16.161616
+  },
+  {
+   "idx": 2,
+   "name": "eil51-gen3-50",
+   "gen": 3,
+   "n": 50,
+   "stakes": 0.13985325697924134,
+   "lite_free": 13.54,
+   "mean_forced": 12.01625,
+   "ref_best": 13.97
+  },
+  {
+   "idx": 3,
+   "name": "berlin52-gen1-50",
+   "gen": 1,
+   "n": 51,
+   "stakes": 0.0357142857142857,
+   "lite_free": 35.0,
+   "mean_forced": 33.75,
+   "ref_best": 35.0
+  },
+  {
+   "idx": 4,
+   "name": "berlin52-gen2-50",
+   "gen": 2,
+   "n": 51,
+   "stakes": 0.044843642807783635,
+   "lite_free": 18.242424242424242,
+   "mean_forced": 17.588383838383837,
+   "ref_best": 18.414141
+  },
+  {
+   "idx": 5,
+   "name": "berlin52-gen3-50",
+   "gen": 3,
+   "n": 51,
+   "stakes": 0.13887548262548266,
+   "lite_free": 10.07,
+   "mean_forced": 8.921249999999999,
+   "ref_best": 10.36
+  },
+  {
+   "idx": 6,
+   "name": "st70-gen1-50",
+   "gen": 1,
+   "n": 69,
+   "stakes": 0.19940476190476186,
+   "lite_free": 41.0,
+   "mean_forced": 33.625,
+   "ref_best": 42.0
+  },
+  {
+   "idx": 7,
+   "name": "st70-gen2-50",
+   "gen": 2,
+   "n": 69,
+   "stakes": 0.19117646505592656,
+   "lite_free": 21.52525252525253,
+   "mean_forced": 17.916666666666668,
+   "ref_best": 22.151515
+  },
+  {
+   "idx": 8,
+   "name": "st70-gen3-50",
+   "gen": 3,
+   "n": 69,
+   "stakes": 0.18553649105848236,
+   "lite_free": 18.65,
+   "mean_forced": 16.85125,
+   "ref_best": 20.69
+  },
+  {
+   "idx": 9,
+   "name": "eil76-gen1-50",
+   "gen": 1,
+   "n": 75,
+   "stakes": 0.16761363636363635,
+   "lite_free": 41.0,
+   "mean_forced": 36.625,
+   "ref_best": 44.0
+  },
+  {
+   "idx": 10,
+   "name": "pr76-gen1-50",
+   "gen": 1,
+   "n": 75,
+   "stakes": 0.16223404255319152,
+   "lite_free": 46.0,
+   "mean_forced": 39.375,
+   "ref_best": 47.0
+  },
+  {
+   "idx": 11,
+   "name": "eil76-gen2-50",
+   "gen": 2,
+   "n": 75,
+   "stakes": 0.14812347478237542,
+   "lite_free": 23.32323232323232,
+   "mean_forced": 20.978535353535356,
+   "ref_best": 24.626263
+  },
+  {
+   "idx": 12,
+   "name": "pr76-gen2-50",
+   "gen": 2,
+   "n": 75,
+   "stakes": 0.24259682214833878,
+   "lite_free": 25.3030303030303,
+   "mean_forced": 20.15151515151515,
+   "ref_best": 26.606061
+  },
+  {
+   "idx": 13,
+   "name": "eil76-gen3-50",
+   "gen": 3,
+   "n": 75,
+   "stakes": 0.18612836438923386,
+   "lite_free": 23.199999999999996,
+   "mean_forced": 19.655,
+   "ref_best": 24.15
+  },
+  {
+   "idx": 14,
+   "name": "pr76-gen3-50",
+   "gen": 3,
+   "n": 75,
+   "stakes": 0.21717848309975274,
+   "lite_free": 23.69,
+   "mean_forced": 18.99125,
+   "ref_best": 24.26
+  },
+  {
+   "idx": 15,
+   "name": "rat99-gen1-50",
+   "gen": 1,
+   "n": 98,
+   "stakes": 0.23750000000000004,
+   "lite_free": 48.0,
+   "mean_forced": 38.125,
+   "ref_best": 50.0
+  },
+  {
+   "idx": 16,
+   "name": "rat99-gen2-50",
+   "gen": 2,
+   "n": 98,
+   "stakes": 0.2768897915930767,
+   "lite_free": 26.069999999999997,
+   "mean_forced": 20.471249999999998,
+   "ref_best": 28.31
+  },
+  {
+   "idx": 17,
+   "name": "rat99-gen3-50",
+   "gen": 3,
+   "n": 98,
+   "stakes": 0.22340989399293287,
+   "lite_free": 24.09,
+   "mean_forced": 21.9775,
+   "ref_best": 28.3
+  },
+  {
+   "idx": 18,
+   "name": "kroA100-gen1-50",
+   "gen": 1,
+   "n": 99,
+   "stakes": 0.19772727272727275,
+   "lite_free": 52.0,
+   "mean_forced": 44.125,
+   "ref_best": 55.0
+  },
+  {
+   "idx": 19,
+   "name": "kroB100-gen1-50",
+   "gen": 1,
+   "n": 99,
+   "stakes": 0.16447368421052633,
+   "lite_free": 54.0,
+   "mean_forced": 47.625,
+   "ref_best": 57.0
+  },
+  {
+   "idx": 20,
+   "name": "kroC100-gen1-50",
+   "gen": 1,
+   "n": 99,
+   "stakes": 0.17788461538461542,
+   "lite_free": 49.0,
+   "mean_forced": 42.75,
+   "ref_best": 52.0
+  },
+  {
+   "idx": 21,
+   "name": "kroD100-gen1-50",
+   "gen": 1,
+   "n": 99,
+   "stakes": 0.22807017543859653,
+   "lite_free": 52.0,
+   "mean_forced": 44.0,
+   "ref_best": 57.0
+  },
+  {
+   "idx": 22,
+   "name": "kroE100-gen1-50",
+   "gen": 1,
+   "n": 99,
+   "stakes": 0.1651785714285714,
+   "lite_free": 53.0,
+   "mean_forced": 46.75,
+   "ref_best": 56.0
+  },
+  {
+   "idx": 23,
+   "name": "rd100-gen1-50",
+   "gen": 1,
+   "n": 99,
+   "stakes": 0.24791666666666667,
+   "lite_free": 56.0,
+   "mean_forced": 45.125,
+   "ref_best": 60.0
+  },
+  {
+   "idx": 24,
+   "name": "kroA100-gen2-50",
+   "gen": 2,
+   "n": 99,
+   "stakes": 0.17479286169534736,
+   "lite_free": 29.16,
+   "mean_forced": 25.895,
+   "ref_best": 31.38
+  },
+  {
+   "idx": 25,
+   "name": "kroB100-gen2-50",
+   "gen": 2,
+   "n": 99,
+   "stakes": 0.23146675151129492,
+   "lite_free": 28.740000000000002,
+   "mean_forced": 24.155,
+   "ref_best": 31.43
+  },
+  {
+   "idx": 26,
+   "name": "kroC100-gen2-50",
+   "gen": 2,
+   "n": 99,
+   "stakes": 0.22339650145772605,
+   "lite_free": 24.94,
+   "mean_forced": 21.31,
+   "ref_best": 27.44
+  },
+  {
+   "idx": 27,
+   "name": "kroD100-gen2-50",
+   "gen": 2,
+   "n": 99,
+   "stakes": 0.2764341085271318,
+   "lite_free": 28.189999999999998,
+   "mean_forced": 23.335,
+   "ref_best": 32.25
+  },
+  {
+   "idx": 28,
+   "name": "kroE100-gen2-50",
+   "gen": 2,
+   "n": 99,
+   "stakes": 0.22670755968169742,
+   "lite_free": 27.81,
+   "mean_forced": 23.322500000000005,
+   "ref_best": 30.16
+  },
+  {
+   "idx": 29,
+   "name": "rd100-gen2-50",
+   "gen": 2,
+   "n": 99,
+   "stakes": 0.21197820748925722,
+   "lite_free": 31.320000000000004,
+   "mean_forced": 25.67375,
+   "ref_best": 32.58
+  },
+  {
+   "idx": 30,
+   "name": "kroA100-gen3-50",
+   "gen": 3,
+   "n": 99,
+   "stakes": 0.22569008782935995,
+   "lite_free": 28.9,
+   "mean_forced": 24.685000000000002,
+   "ref_best": 31.88
+  },
+  {
+   "idx": 31,
+   "name": "kroB100-gen3-50",
+   "gen": 3,
+   "n": 99,
+   "stakes": 0.21022114347357057,
+   "lite_free": 26.299999999999994,
+   "mean_forced": 21.96375,
+   "ref_best": 27.81
+  },
+  {
+   "idx": 32,
+   "name": "kroC100-gen3-50",
+   "gen": 3,
+   "n": 99,
+   "stakes": 0.2146640185369083,
+   "lite_free": 27.15,
+   "mean_forced": 23.725,
+   "ref_best": 30.21
+  },
+  {
+   "idx": 33,
+   "name": "kroD100-gen3-50",
+   "gen": 3,
+   "n": 99,
+   "stakes": 0.19524495677233433,
+   "lite_free": 28.050000000000004,
+   "mean_forced": 25.1325,
+   "ref_best": 31.23
+  },
+  {
+   "idx": 34,
+   "name": "kroE100-gen3-50",
+   "gen": 3,
+   "n": 99,
+   "stakes": 0.26020826500491967,
+   "lite_free": 24.86,
+   "mean_forced": 22.55625,
+   "ref_best": 30.49
+  },
+  {
+   "idx": 35,
+   "name": "rd100-gen3-50",
+   "gen": 3,
+   "n": 99,
+   "stakes": 0.19620646766169159,
+   "lite_free": 26.429999999999996,
+   "mean_forced": 22.61875,
+   "ref_best": 28.14
+  },
+  {
+   "idx": 36,
+   "name": "eil101-gen1-50",
+   "gen": 1,
+   "n": 100,
+   "stakes": 0.16129032258064513,
+   "lite_free": 57.0,
+   "mean_forced": 52.0,
+   "ref_best": 62.0
+  },
+  {
+   "idx": 37,
+   "name": "eil101-gen2-50",
+   "gen": 2,
+   "n": 100,
+   "stakes": 0.153470254957507,
+   "lite_free": 31.700000000000003,
+   "mean_forced": 29.8825,
+   "ref_best": 35.3
+  },
+  {
+   "idx": 38,
+   "name": "eil101-gen3-50",
+   "gen": 3,
+   "n": 100,
+   "stakes": 0.1210421149707962,
+   "lite_free": 30.400000000000006,
+   "mean_forced": 28.5925,
+   "ref_best": 32.53
+  },
+  {
+   "idx": 39,
+   "name": "lin105-gen1-50",
+   "gen": 1,
+   "n": 104,
+   "stakes": 0.21923076923076923,
+   "lite_free": 61.0,
+   "mean_forced": 50.75,
+   "ref_best": 65.0
+  },
+  {
+   "idx": 40,
+   "name": "lin105-gen2-50",
+   "gen": 2,
+   "n": 104,
+   "stakes": 0.24747255921432698,
+   "lite_free": 33.17,
+   "mean_forced": 26.0525,
+   "ref_best": 34.62
+  },
+  {
+   "idx": 41,
+   "name": "lin105-gen3-50",
+   "gen": 3,
+   "n": 104,
+   "stakes": 0.2803645473393227,
+   "lite_free": 28.05999999999999,
+   "mean_forced": 20.82625,
+   "ref_best": 28.94
+  },
+  {
+   "idx": 42,
+   "name": "pr107-gen1-50",
+   "gen": 1,
+   "n": 106,
+   "stakes": 0.32311320754716977,
+   "lite_free": 52.0,
+   "mean_forced": 35.875,
+   "ref_best": 53.0
+  },
+  {
+   "idx": 43,
+   "name": "pr107-gen2-50",
+   "gen": 2,
+   "n": 106,
+   "stakes": 0.4882857693790975,
+   "lite_free": 25.479999999999993,
+   "mean_forced": 13.26875,
+   "ref_best": 25.93
+  },
+  {
+   "idx": 44,
+   "name": "pr107-gen3-50",
+   "gen": 3,
+   "n": 106,
+   "stakes": 0.13204726651480625,
+   "lite_free": 17.26,
+   "mean_forced": 15.24125,
+   "ref_best": 17.56
+  },
+  {
+   "idx": 45,
+   "name": "pr124-gen1-50",
+   "gen": 1,
+   "n": 123,
+   "stakes": 0.33783783783783783,
+   "lite_free": 62.0,
+   "mean_forced": 49.0,
+   "ref_best": 74.0
+  },
+  {
+   "idx": 46,
+   "name": "pr124-gen2-50",
+   "gen": 2,
+   "n": 123,
+   "stakes": 0.3183060109289618,
+   "lite_free": 36.690000000000005,
+   "mean_forced": 26.197499999999998,
+   "ref_best": 38.43
+  },
+  {
+   "idx": 47,
+   "name": "pr124-gen3-50",
+   "gen": 3,
+   "n": 123,
+   "stakes": 0.4031769512538743,
+   "lite_free": 34.32,
+   "mean_forced": 21.181250000000002,
+   "ref_best": 35.49
+  },
+  {
+   "idx": 48,
+   "name": "bier127-gen1-50",
+   "gen": 1,
+   "n": 126,
+   "stakes": 0.03874999999999995,
+   "lite_free": 101.0,
+   "mean_forced": 96.125,
+   "ref_best": 100.0
+  },
+  {
+   "idx": 49,
+   "name": "bier127-gen2-50",
+   "gen": 2,
+   "n": 126,
+   "stakes": 0.07216200798630923,
+   "lite_free": 50.370000000000005,
+   "mean_forced": 48.795,
+   "ref_best": 52.59
+  },
+  {
+   "idx": 50,
+   "name": "bier127-gen3-50",
+   "gen": 3,
+   "n": 126,
+   "stakes": 0.09466638334041644,
+   "lite_free": 22.68,
+   "mean_forced": 21.302500000000002,
+   "ref_best": 23.53
+  },
+  {
+   "idx": 51,
+   "name": "pr136-gen1-50",
+   "gen": 1,
+   "n": 135,
+   "stakes": 0.19216417910447758,
+   "lite_free": 64.0,
+   "mean_forced": 54.125,
+   "ref_best": 67.0
+  },
+  {
+   "idx": 52,
+   "name": "pr136-gen2-50",
+   "gen": 2,
+   "n": 135,
+   "stakes": 0.24193842784132402,
+   "lite_free": 36.440000000000005,
+   "mean_forced": 31.14875,
+   "ref_best": 41.09
+  },
+  {
+   "idx": 53,
+   "name": "pr136-gen3-50",
+   "gen": 3,
+   "n": 135,
+   "stakes": 0.2039703824626865,
+   "lite_free": 37.980000000000004,
+   "mean_forced": 34.133750000000006,
+   "ref_best": 42.88
+  },
+  {
+   "idx": 54,
+   "name": "pr144-gen1-50",
+   "gen": 1,
+   "n": 143,
+   "stakes": 0.26584507042253525,
+   "lite_free": 68.0,
+   "mean_forced": 52.125,
+   "ref_best": 71.0
+  },
+  {
+   "idx": 55,
+   "name": "pr144-gen2-50",
+   "gen": 2,
+   "n": 143,
+   "stakes": 0.366835947544356,
+   "lite_free": 35.260000000000005,
+   "mean_forced": 24.623749999999998,
+   "ref_best": 38.89
+  },
+  {
+   "idx": 56,
+   "name": "pr144-gen3-50",
+   "gen": 3,
+   "n": 143,
+   "stakes": 0.29806893687707636,
+   "lite_free": 27.8,
+   "mean_forced": 25.35375,
+   "ref_best": 36.12
+  },
+  {
+   "idx": 57,
+   "name": "kroA150-gen1-50",
+   "gen": 1,
+   "n": 149,
+   "stakes": 0.21993670886075944,
+   "lite_free": 74.0,
+   "mean_forced": 61.625,
+   "ref_best": 79.0
+  },
+  {
+   "idx": 58,
+   "name": "kroB150-gen1-50",
+   "gen": 1,
+   "n": 149,
+   "stakes": 0.2357594936708861,
+   "lite_free": 71.0,
+   "mean_forced": 60.375,
+   "ref_best": 79.0
+  },
+  {
+   "idx": 59,
+   "name": "kroA150-gen2-50",
+   "gen": 2,
+   "n": 149,
+   "stakes": 0.20991269165247006,
+   "lite_free": 41.15,
+   "mean_forced": 37.102500000000006,
+   "ref_best": 46.96
+  },
+  {
+   "idx": 60,
+   "name": "kroB150-gen2-50",
+   "gen": 2,
+   "n": 149,
+   "stakes": 0.28827560560985976,
+   "lite_free": 39.76,
+   "mean_forced": 33.49375,
+   "ref_best": 47.06
+  },
+  {
+   "idx": 61,
+   "name": "kroA150-gen3-50",
+   "gen": 3,
+   "n": 149,
+   "stakes": 0.2249453171604694,
+   "lite_free": 44.589999999999996,
+   "mean_forced": 38.97749999999999,
+   "ref_best": 50.29
+  },
+  {
+   "idx": 62,
+   "name": "kroB150-gen3-50",
+   "gen": 3,
+   "n": 149,
+   "stakes": 0.24937223784652474,
+   "lite_free": 46.74,
+   "mean_forced": 37.36625,
+   "ref_best": 49.78
+  },
+  {
+   "idx": 63,
+   "name": "pr152-gen1-50",
+   "gen": 1,
+   "n": 151,
+   "stakes": 0.3485915492957746,
+   "lite_free": 68.0,
+   "mean_forced": 46.25,
+   "ref_best": 71.0
+  },
+  {
+   "idx": 64,
+   "name": "pr152-gen2-50",
+   "gen": 2,
+   "n": 151,
+   "stakes": 0.32336888331242153,
+   "lite_free": 36.5,
+   "mean_forced": 26.96375,
+   "ref_best": 39.85
+  },
+  {
+   "idx": 65,
+   "name": "pr152-gen3-50",
+   "gen": 3,
+   "n": 151,
+   "stakes": 0.3577144686299615,
+   "lite_free": 31.849999999999994,
+   "mean_forced": 25.08125,
+   "ref_best": 39.05
+  },
+  {
+   "idx": 66,
+   "name": "u159-gen1-50",
+   "gen": 1,
+   "n": 158,
+   "stakes": 0.2556179775280899,
+   "lite_free": 82.0,
+   "mean_forced": 66.25,
+   "ref_best": 89.0
+  },
+  {
+   "idx": 67,
+   "name": "u159-gen2-50",
+   "gen": 2,
+   "n": 158,
+   "stakes": 0.3499180999181001,
+   "lite_free": 39.66,
+   "mean_forced": 31.749999999999996,
+   "ref_best": 48.84
+  },
+  {
+   "idx": 68,
+   "name": "u159-gen3-50",
+   "gen": 3,
+   "n": 158,
+   "stakes": 0.3025140749369055,
+   "lite_free": 47.31,
+   "mean_forced": 35.927499999999995,
+   "ref_best": 51.51
+  },
+  {
+   "idx": 69,
+   "name": "rat195-gen1-50",
+   "gen": 1,
+   "n": 194,
+   "stakes": 0.2222222222222222,
+   "lite_free": 86.0,
+   "mean_forced": 77.0,
+   "ref_best": 99.0
+  },
+  {
+   "idx": 70,
+   "name": "rat195-gen2-50",
+   "gen": 2,
+   "n": 194,
+   "stakes": 0.2670628489104988,
+   "lite_free": 48.879999999999995,
+   "mean_forced": 40.7,
+   "ref_best": 55.53
+  },
+  {
+   "idx": 71,
+   "name": "rat195-gen3-50",
+   "gen": 3,
+   "n": 194,
+   "stakes": 0.2846318563663319,
+   "lite_free": 52.699999999999996,
+   "mean_forced": 43.42999999999999,
+   "ref_best": 60.71
+  },
+  {
+   "idx": 72,
+   "name": "d198-gen1-50",
+   "gen": 1,
+   "n": 197,
+   "stakes": 0.30434782608695654,
+   "lite_free": 107.0,
+   "mean_forced": 80.0,
+   "ref_best": 115.0
+  },
+  {
+   "idx": 73,
+   "name": "d198-gen2-50",
+   "gen": 2,
+   "n": 197,
+   "stakes": 0.4332686748820934,
+   "lite_free": 58.900000000000006,
+   "mean_forced": 37.25125,
+   "ref_best": 65.73
+  },
+  {
+   "idx": 74,
+   "name": "d198-gen3-50",
+   "gen": 3,
+   "n": 197,
+   "stakes": 0.23105194380921257,
+   "lite_free": 57.04,
+   "mean_forced": 47.075,
+   "ref_best": 61.22
+  },
+  {
+   "idx": 75,
+   "name": "kroA200-gen1-50",
+   "gen": 1,
+   "n": 199,
+   "stakes": 0.2444196428571429,
+   "lite_free": 102.0,
+   "mean_forced": 84.625,
+   "ref_best": 112.0
+  },
+  {
+   "idx": 76,
+   "name": "kroB200-gen1-50",
+   "gen": 1,
+   "n": 199,
+   "stakes": 0.2332589285714286,
+   "lite_free": 103.0,
+   "mean_forced": 85.875,
+   "ref_best": 112.0
+  },
+  {
+   "idx": 77,
+   "name": "kroA200-gen2-50",
+   "gen": 2,
+   "n": 199,
+   "stakes": 0.26215614886731387,
+   "lite_free": 54.129999999999995,
+   "mean_forced": 45.59875,
+   "ref_best": 61.8
+  },
+  {
+   "idx": 78,
+   "name": "kroB200-gen2-50",
+   "gen": 2,
+   "n": 199,
+   "stakes": 0.22592516447368416,
+   "lite_free": 53.43,
+   "mean_forced": 47.06375,
+   "ref_best": 60.8
+  },
+  {
+   "idx": 79,
+   "name": "kroA200-gen3-50",
+   "gen": 3,
+   "n": 199,
+   "stakes": 0.26004877228388834,
+   "lite_free": 46.94,
+   "mean_forced": 43.9975,
+   "ref_best": 59.46
+  },
+  {
+   "idx": 80,
+   "name": "kroB200-gen3-50",
+   "gen": 3,
+   "n": 199,
+   "stakes": 0.24738669007341207,
+   "lite_free": 53.93000000000001,
+   "mean_forced": 47.15875,
+   "ref_best": 62.66
+  },
+  {
+   "idx": 81,
+   "name": "ts225-gen1-50",
+   "gen": 1,
+   "n": 224,
+   "stakes": 0.26694915254237284,
+   "lite_free": 102.0,
+   "mean_forced": 86.5,
+   "ref_best": 118.0
+  },
+  {
+   "idx": 82,
+   "name": "tsp225-gen1-50",
+   "gen": 1,
+   "n": 224,
+   "stakes": 0.20564516129032262,
+   "lite_free": 110.0,
+   "mean_forced": 98.5,
+   "ref_best": 124.0
+  },
+  {
+   "idx": 83,
+   "name": "ts225-gen2-50",
+   "gen": 2,
+   "n": 224,
+   "stakes": 0.3183908482821527,
+   "lite_free": 57.69,
+   "mean_forced": 44.83625,
+   "ref_best": 65.78
+  },
+  {
+   "idx": 84,
+   "name": "tsp225-gen2-50",
+   "gen": 2,
+   "n": 224,
+   "stakes": 0.30035945363048155,
+   "lite_free": 60.94999999999999,
+   "mean_forced": 48.660000000000004,
+   "ref_best": 69.55
+  },
+  {
+   "idx": 85,
+   "name": "ts225-gen3-50",
+   "gen": 3,
+   "n": 224,
+   "stakes": 0.3176238182587836,
+   "lite_free": 57.36,
+   "mean_forced": 48.36000000000001,
+   "ref_best": 70.87
+  },
+  {
+   "idx": 86,
+   "name": "tsp225-gen3-50",
+   "gen": 3,
+   "n": 224,
+   "stakes": 0.2393149882903982,
+   "lite_free": 66.03,
+   "mean_forced": 58.466249999999995,
+   "ref_best": 76.86
+  },
+  {
+   "idx": 87,
+   "name": "pr226-gen1-50",
+   "gen": 1,
+   "n": 225,
+   "stakes": 0.0737951807228916,
+   "lite_free": 103.0,
+   "mean_forced": 76.875,
+   "ref_best": 83.0
+  },
+  {
+   "idx": 88,
+   "name": "pr226-gen2-50",
+   "gen": 2,
+   "n": 225,
+   "stakes": 0.4042842991579991,
+   "lite_free": 53.71,
+   "mean_forced": 36.082499999999996,
+   "ref_best": 60.57
+  },
+  {
+   "idx": 89,
+   "name": "pr226-gen3-50",
+   "gen": 3,
+   "n": 225,
+   "stakes": 0.3767803030303031,
+   "lite_free": 59.92000000000001,
+   "mean_forced": 41.1325,
+   "ref_best": 66.0
+  },
+  {
+   "idx": 90,
+   "name": "gil262-gen1-50",
+   "gen": 1,
+   "n": 261,
+   "stakes": 0.24741379310344824,
+   "lite_free": 129.0,
+   "mean_forced": 109.125,
+   "ref_best": 145.0
+  },
+  {
+   "idx": 91,
+   "name": "gil262-gen2-50",
+   "gen": 2,
+   "n": 261,
+   "stakes": 0.28351620633118935,
+   "lite_free": 67.25999999999999,
+   "mean_forced": 56.81,
+   "ref_best": 79.29
+  },
+  {
+   "idx": 92,
+   "name": "gil262-gen3-50",
+   "gen": 3,
+   "n": 261,
+   "stakes": 0.2465047934261584,
+   "lite_free": 73.28999999999999,
+   "mean_forced": 66.02125000000001,
+   "ref_best": 87.62
+  },
+  {
+   "idx": 93,
+   "name": "pr264-gen1-50",
+   "gen": 1,
+   "n": 263,
+   "stakes": 0.3444656488549618,
+   "lite_free": 106.0,
+   "mean_forced": 85.875,
+   "ref_best": 131.0
+  },
+  {
+   "idx": 94,
+   "name": "pr264-gen2-50",
+   "gen": 2,
+   "n": 263,
+   "stakes": 0.30457826747720373,
+   "lite_free": 53.5,
+   "mean_forced": 45.75874999999999,
+   "ref_best": 65.8
+  },
+  {
+   "idx": 95,
+   "name": "pr264-gen3-50",
+   "gen": 3,
+   "n": 263,
+   "stakes": 0.3598348998268611,
+   "lite_free": 58.39,
+   "mean_forced": 51.76375000000001,
+   "ref_best": 80.86
+  },
+  {
+   "idx": 96,
+   "name": "a280-gen1-50",
+   "gen": 1,
+   "n": 279,
+   "stakes": 0.346551724137931,
+   "lite_free": 119.0,
+   "mean_forced": 94.75,
+   "ref_best": 145.0
+  },
+  {
+   "idx": 97,
+   "name": "a280-gen2-50",
+   "gen": 2,
+   "n": 279,
+   "stakes": 0.2831176246669205,
+   "lite_free": 66.5,
+   "mean_forced": 56.4975,
+   "ref_best": 78.81
+  },
+  {
+   "idx": 98,
+   "name": "a280-gen3-50",
+   "gen": 3,
+   "n": 279,
+   "stakes": 0.2998808262711865,
+   "lite_free": 77.43,
+   "mean_forced": 66.09125,
+   "ref_best": 94.4
+  },
+  {
+   "idx": 99,
+   "name": "pr299-gen1-50",
+   "gen": 1,
+   "n": 298,
+   "stakes": 0.32016129032258067,
+   "lite_free": 142.0,
+   "mean_forced": 105.375,
+   "ref_best": 155.0
+  },
+  {
+   "idx": 100,
+   "name": "pr299-gen2-50",
+   "gen": 2,
+   "n": 298,
+   "stakes": 0.33189111747850997,
+   "lite_free": 71.48000000000002,
+   "mean_forced": 58.292500000000004,
+   "ref_best": 87.25
+  },
+  {
+   "idx": 101,
+   "name": "pr299-gen3-50",
+   "gen": 3,
+   "n": 298,
+   "stakes": 0.34440959050676,
+   "lite_free": 79.72,
+   "mean_forced": 67.40125,
+   "ref_best": 102.81
+  }
+ ]
+}

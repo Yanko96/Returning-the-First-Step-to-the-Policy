@@ -1,0 +1,62 @@
+{
+  "arm": "uniform",
+  "ckpt": "checkpoints/uniform_op50_seed43/last.ckpt",
+  "dataset": "data/op/op_dist100_test_seed1234.pkl",
+  "dataset_md5": "53eeff929a4339563a044b9fdee5fd69",
+  "n": 100,
+  "device": "cuda",
+  "chunks": {
+    "greedy": 2000,
+    "sampling1280": 8,
+    "multistart": 128,
+    "aug1280": 8,
+    "msaug": 12,
+    "ms10": 512,
+    "ms25": 256,
+    "greedy_head": 2000,
+    "ms50": 256
+  },
+  "accounting": {
+    "msaug": "100x16",
+    "sampling": 1280,
+    "aug": 1280
+  },
+  "schemes": {
+    "greedy": {
+      "mean_best_prize": 27.1711,
+      "gap_pct": 18.135,
+      "wall_s": 1.6
+    },
+    "multistart": {
+      "mean_best_prize": 30.8958,
+      "gap_pct": 6.912,
+      "wall_s": 8.0
+    },
+    "msaug": {
+      "mean_best_prize": 31.8304,
+      "gap_pct": 4.096,
+      "wall_s": 93.6
+    },
+    "ms10": {
+      "mean_best_prize": 30.1581,
+      "gap_pct": 9.135,
+      "wall_s": 2.5
+    },
+    "ms25": {
+      "mean_best_prize": 30.5558,
+      "gap_pct": 7.937,
+      "wall_s": 4.3
+    },
+    "ms50": {
+      "mean_best_prize": 30.757,
+      "gap_pct": 7.33,
+      "wall_s": 4.4
+    },
+    "greedy_head": {
+      "mean_best_prize": 27.4819,
+      "gap_pct": 17.198,
+      "wall_s": 1.3,
+      "note": "1-rollout head-argmax first step"
+    }
+  }
+}

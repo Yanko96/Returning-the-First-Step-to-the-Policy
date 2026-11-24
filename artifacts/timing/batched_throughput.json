@@ -1,0 +1,56 @@
+{
+  "note": "timing block of the run behind the batched rows of Table 6 (GPU rows on one RTX 4090). The ILS rows here, on one EPYC 7352 core, are not used in Table 6, whose ILS rows come from latency_single_instance_cpu_xeon6240r.json",
+  "hardware": {
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "cpu": "AMD EPYC 7352, single core"
+  },
+  "dataset_md5": "47a828139a9fcf1e642a060f40837d9e",
+  "timing": {
+    "pomo.greedy": {
+      "ms_per_instance": 0.051,
+      "mean_best_prize": 14.1587
+    },
+    "pomo.ms10": {
+      "ms_per_instance": 0.119,
+      "mean_best_prize": 15.7051
+    },
+    "pomo.ms25": {
+      "ms_per_instance": 0.213,
+      "mean_best_prize": 15.9001
+    },
+    "pomo.multistart": {
+      "ms_per_instance": 0.395,
+      "mean_best_prize": 15.9928
+    },
+    "pomo.msaug": {
+      "ms_per_instance": 4.164,
+      "mean_best_prize": 16.1689
+    },
+    "sas.greedy_head": {
+      "ms_per_instance": 0.053,
+      "mean_best_prize": 15.547
+    },
+    "sas.ms10": {
+      "ms_per_instance": 0.124,
+      "mean_best_prize": 15.9653
+    },
+    "sas.ms25": {
+      "ms_per_instance": 0.214,
+      "mean_best_prize": 15.9963
+    },
+    "sas.multistart": {
+      "ms_per_instance": 0.413,
+      "mean_best_prize": 15.9994
+    },
+    "sas.msaug": {
+      "ms_per_instance": 4.204,
+      "mean_best_prize": 16.1658
+    },
+    "ils.restart1": {
+      "s_per_instance": 0.342
+    },
+    "ils.restart16": {
+      "s_per_instance": 5.52
+    }
+  }
+}

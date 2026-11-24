@@ -1,0 +1,61 @@
+{
+ "problem": "tsp",
+ "n": 50,
+ "eval_note": "costs only; no wall-clock",
+ "arms": {
+  "pomo": {
+   "rows": {
+    "greedy": 5.752758979797363,
+    "ms10": 5.717012882232666,
+    "ms50": 5.710559368133545,
+    "msaug": 5.697606086730957
+   }
+  },
+  "sas42": {
+   "head": {
+    "mean_entropy": 0.0655,
+    "ln_n_feasible": 3.912,
+    "entropy_ratio": 0.0167,
+    "mean_kl_to_uniform": 3.8465,
+    "mean_top1": 0.97171,
+    "uniform_top1": 0.02
+   },
+   "rows": {
+    "greedy": 5.746456146240234,
+    "greedy_head": 5.741545677185059,
+    "ms10": 5.721742153167725,
+    "ms50": 5.710894584655762,
+    "msaug": 5.697651386260986
+   },
+   "parity_pp": {
+    "gh_vs_greedy": -0.195,
+    "ms10": 0.083,
+    "ms50": 0.006,
+    "msaug": 0.001
+   }
+  },
+  "sas43": {
+   "head": {
+    "mean_entropy": 0.0603,
+    "ln_n_feasible": 3.912,
+    "entropy_ratio": 0.0154,
+    "mean_kl_to_uniform": 3.8517,
+    "mean_top1": 0.97561,
+    "uniform_top1": 0.02
+   },
+   "rows": {
+    "greedy": 5.748930931091309,
+    "greedy_head": 5.74251127243042,
+    "ms10": 5.71770715713501,
+    "ms50": 5.70969295501709,
+    "msaug": 5.697606086730957
+   },
+   "parity_pp": {
+    "gh_vs_greedy": -0.178,
+    "ms10": 0.012,
+    "ms50": -0.015,
+    "msaug": 0.0
+   }
+  }
+ }
+}

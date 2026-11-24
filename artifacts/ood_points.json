@@ -1,0 +1,78 @@
+{
+  "pctsp50": {
+    "problem": "PCTSP50",
+    "x_stakes": 0.09443948548016305,
+    "realized_mean": 7.168390115102132,
+    "realized_std": 0.2397163201258161,
+    "oracle_mean": 9.607661565144857,
+    "oracle_std": 0.0648925059547717,
+    "ratio_mean": 0.7462447154543678,
+    "caliber": "same-checkpoint, ILS ref, first 200",
+    "per_seed": [
+      {
+        "seed": 42,
+        "first200_ref": {
+          "realized": 7.42555046081543,
+          "oracle": 9.533734321594238
+        },
+        "all1000_ortools": {
+          "realized": 7.329698085784912,
+          "oracle": 9.642391204833984
+        }
+      },
+      {
+        "seed": 43,
+        "first200_ref": {
+          "realized": 7.1284966468811035,
+          "oracle": 9.634037017822266
+        },
+        "all1000_ortools": {
+          "realized": 7.095560550689697,
+          "oracle": 9.635368347167969
+        }
+      },
+      {
+        "seed": 44,
+        "first200_ref": {
+          "realized": 6.951123237609863,
+          "oracle": 9.655213356018066
+        },
+        "all1000_ortools": {
+          "realized": 7.09255313873291,
+          "oracle": 9.755415916442871
+        }
+      }
+    ],
+    "ref_mean": 4.50299863
+  },
+  "op100": {
+    "problem": "OP100",
+    "x_stakes": 0.19355791374714304,
+    "realized_mean": 3.7192,
+    "realized_std": 1.145082398781852,
+    "caliber": "paper decay table, five seeds (separately trained uniform configuration)",
+    "oracle_persistence": {
+      "one_shot_gap": 14.045599999999999,
+      "multistart_gap": 6.9488,
+      "start_value_pp": 7.096799999999998
+    }
+  },
+  "oplib": {
+    "problem": "OPLib",
+    "x_stakes": 0.24219593270909004,
+    "realized_mean": -0.8945999999999955,
+    "realized_std": 3.415446574022201,
+    "caliber": "paper decay table, five seeds (separately trained uniform configuration)",
+    "oracle_persistence": {
+      "one_shot_gap": 48.32475098039216,
+      "ms50_gap": 34.15964901960784,
+      "start_value_pp": 14.16510196078432,
+      "subset": "n<=300"
+    }
+  },
+  "op50_fit": {
+    "slope": 71.77,
+    "intercept": -2.62,
+    "note": "fit computed on the five-tier sweep"
+  }
+}

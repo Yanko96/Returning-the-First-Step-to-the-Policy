@@ -1,0 +1,56 @@
+{
+  "arm": "uniform",
+  "ckpt": "checkpoints/uniform_pctsp50_seed44/last.ckpt",
+  "dataset": "data/pctsp/pctsp50_test_seed1234.pkl",
+  "dataset_md5": "df23990603d21aa25ed41f87640db4fa",
+  "n": 50,
+  "device": "cuda",
+  "chunks": {
+    "greedy": 1000,
+    "sampling1280": 8,
+    "multistart": 64,
+    "aug1280": 8,
+    "msaug": 8,
+    "ms10": 256,
+    "ms25": 128,
+    "greedy_head": 1000
+  },
+  "reference": 4.48,
+  "accounting": {
+    "msaug": "50x16",
+    "sampling": 1280,
+    "aug": 1280
+  },
+  "schemes": {
+    "greedy": {
+      "mean_best_cost": 4.9526,
+      "gap_pct": 10.549,
+      "wall_s": 0.8
+    },
+    "multistart": {
+      "mean_best_cost": 4.5767,
+      "gap_pct": 2.159,
+      "wall_s": 8.1
+    },
+    "msaug": {
+      "mean_best_cost": 4.526,
+      "gap_pct": 1.026,
+      "wall_s": 65.5
+    },
+    "ms10": {
+      "mean_best_cost": 4.6694,
+      "gap_pct": 4.227,
+      "wall_s": 2.3
+    },
+    "ms25": {
+      "mean_best_cost": 4.6074,
+      "gap_pct": 2.844,
+      "wall_s": 4.2
+    },
+    "greedy_head": {
+      "mean_best_cost": 5.013,
+      "gap_pct": 11.898,
+      "wall_s": 0.8
+    }
+  }
+}

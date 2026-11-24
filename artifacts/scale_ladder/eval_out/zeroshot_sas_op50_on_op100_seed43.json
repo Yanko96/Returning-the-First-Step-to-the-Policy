@@ -1,0 +1,30 @@
+{
+  "arm": "sas",
+  "ckpt": "checkpoints/sas_op50_seed43/last.ckpt",
+  "dataset": "eval_sets/eval_op_n100_first1000.pkl",
+  "dataset_md5": "c4f468925cdccdbe2c96c20a71471fef",
+  "n": 100,
+  "budget": 4.0,
+  "holdout": "",
+  "pool": "",
+  "n_inst": 1000,
+  "device": "cuda",
+  "pool_k": 50,
+  "pool_seed_base": 770000,
+  "permute_labels": false,
+  "schemes": {
+    "sas_oneshot": {
+      "mean": 28.62108
+    },
+    "uniform_oneshot": {
+      "mean": 27.25729
+    },
+    "best_of_50": {
+      "mean": 30.717279
+    },
+    "sas_at_50": {
+      "mean": 28.617502
+    }
+  },
+  "note": "zero-shot: the section-2 SAS checkpoint of this seed (trained at n = 50) on the n = 100 held-out set of the scale ladder; Section 4.5"
+}

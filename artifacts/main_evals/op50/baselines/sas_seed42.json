@@ -1,0 +1,62 @@
+{
+  "backbone": "sas",
+  "ckpt": "checkpoints/sas_op50_seed42/last.ckpt",
+  "dataset": "data/op/op_dist50_test_seed1234.pkl",
+  "dataset_md5": "47a828139a9fcf1e642a060f40837d9e",
+  "n": 50,
+  "n_inst": 10000,
+  "device": "NVIDIA A100-SXM4-80GB",
+  "reference": 16.17,
+  "sample_seed_base": 20260708,
+  "schemes": {
+    "head1": {
+      "rollouts": 1,
+      "chunk": 2000,
+      "mean_best_prize": 15.547,
+      "gap_pct": 3.853,
+      "wall_s": 0.8
+    },
+    "head10": {
+      "rollouts": 10,
+      "chunk": 512,
+      "mean_best_prize": 15.9653,
+      "gap_pct": 1.266,
+      "wall_s": 1.5
+    },
+    "head25": {
+      "rollouts": 25,
+      "chunk": 256,
+      "mean_best_prize": 15.9963,
+      "gap_pct": 1.074,
+      "wall_s": 2.4
+    },
+    "rule1": {
+      "rollouts": 1,
+      "chunk": 2000,
+      "mean_best_prize": 15.398,
+      "gap_pct": 4.774,
+      "wall_s": 0.6
+    },
+    "rule10": {
+      "rollouts": 10,
+      "chunk": 512,
+      "mean_best_prize": 15.9178,
+      "gap_pct": 1.559,
+      "wall_s": 1.4
+    },
+    "rule25": {
+      "rollouts": 25,
+      "chunk": 256,
+      "mean_best_prize": 15.9667,
+      "gap_pct": 1.257,
+      "wall_s": 2.5
+    },
+    "rule50": {
+      "rollouts": 50,
+      "chunk": 128,
+      "mean_best_prize": 15.9994,
+      "gap_pct": 1.055,
+      "wall_s": 4.4
+    }
+  }
+}

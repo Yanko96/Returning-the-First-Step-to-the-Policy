@@ -1,0 +1,56 @@
+{
+  "arm": "sas",
+  "ckpt": "checkpoints/sas_op50_seed46/epoch099.ckpt",
+  "dataset": "data/op/op_dist50_test_seed1234.pkl",
+  "dataset_md5": "47a828139a9fcf1e642a060f40837d9e",
+  "n": 50,
+  "device": "cuda",
+  "chunks": {
+    "greedy": 2000,
+    "sampling1280": 8,
+    "multistart": 128,
+    "aug1280": 8,
+    "msaug": 12,
+    "ms10": 512,
+    "ms25": 256,
+    "greedy_head": 2000
+  },
+  "accounting": {
+    "msaug": "50x16",
+    "sampling": 1280,
+    "aug": 1280
+  },
+  "schemes": {
+    "greedy": {
+      "mean_best_prize": 13.6596,
+      "gap_pct": 15.525,
+      "wall_s": 0.8
+    },
+    "multistart": {
+      "mean_best_prize": 15.9963,
+      "gap_pct": 1.074,
+      "wall_s": 4.1
+    },
+    "msaug": {
+      "mean_best_prize": 16.1664,
+      "gap_pct": 0.023,
+      "wall_s": 44.7
+    },
+    "ms10": {
+      "mean_best_prize": 15.9639,
+      "gap_pct": 1.275,
+      "wall_s": 1.4
+    },
+    "ms25": {
+      "mean_best_prize": 15.9938,
+      "gap_pct": 1.089,
+      "wall_s": 2.3
+    },
+    "greedy_head": {
+      "mean_best_prize": 15.5557,
+      "gap_pct": 3.799,
+      "wall_s": 0.6,
+      "note": "1-rollout head-argmax first step"
+    }
+  }
+}

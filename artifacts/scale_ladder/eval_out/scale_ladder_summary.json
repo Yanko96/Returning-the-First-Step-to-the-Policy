@@ -1,0 +1,113 @@
+{
+  "scale_advantage": {
+    "seed_counts": {
+      "100": 3,
+      "200": 3,
+      "500": 3
+    },
+    "per_scale": {
+      "100": {
+        "realized_mean": 1.8115729490915935,
+        "se": 0.05668367275455856,
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "k": 3,
+        "t2df": 4.526536687430166,
+        "branch": "positive",
+        "exceeds_2se": true
+      },
+      "200": {
+        "realized_mean": 2.317347208658854,
+        "se": 0.09991199995233582,
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "k": 3,
+        "t2df": 4.526536687430166,
+        "branch": "positive",
+        "exceeds_2se": true
+      },
+      "500": {
+        "realized_mean": 3.2212164402008057,
+        "se": 0.4230583593356398,
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "k": 3,
+        "t2df": 4.526536687430166,
+        "branch": "positive",
+        "exceeds_2se": true
+      }
+    },
+    "n_star": 500,
+    "trend_only": [],
+    "non_monotone_singled": [],
+    "statement": "benefit persists through trained scale n=500"
+  },
+  "capture": {
+    "pooled_equal_weight": 0.6437695423762003,
+    "n_cells": 9,
+    "per_cell": [
+      {
+        "scale": 100,
+        "seed": 42,
+        "conversion": 0.7668095827102661
+      },
+      {
+        "scale": 100,
+        "seed": 43,
+        "conversion": 0.7577618360519409
+      },
+      {
+        "scale": 100,
+        "seed": 44,
+        "conversion": 0.6636978983879089
+      },
+      {
+        "scale": 200,
+        "seed": 42,
+        "conversion": 0.6183194518089294
+      },
+      {
+        "scale": 200,
+        "seed": 43,
+        "conversion": 0.651442289352417
+      },
+      {
+        "scale": 200,
+        "seed": 44,
+        "conversion": 0.5850026607513428
+      },
+      {
+        "scale": 500,
+        "seed": 42,
+        "conversion": 0.6551072001457214
+      },
+      {
+        "scale": 500,
+        "seed": 43,
+        "conversion": 0.642000675201416
+      },
+      {
+        "scale": 500,
+        "seed": 44,
+        "conversion": 0.4537842869758606
+      }
+    ],
+    "cell_range": [
+      0.4537842869758606,
+      0.7668095827102661
+    ]
+  },
+  "regime_advantage": {
+    "status": "no regime-study eval outputs found"
+  },
+  "pomo_xval": {}
+}

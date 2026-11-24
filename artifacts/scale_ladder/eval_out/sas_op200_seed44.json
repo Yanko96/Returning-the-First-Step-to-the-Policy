@@ -1,0 +1,29 @@
+{
+  "arm": "sas",
+  "ckpt": "checkpoints/sas_op200_T5.5_seed44/last.ckpt",
+  "dataset": "eval_sets/eval_op_n200_seed20260907.pkl",
+  "dataset_md5": "516db3438eb1127f8298ece6ed93a6e5",
+  "n": 200,
+  "budget": 5.5,
+  "holdout": "",
+  "pool": "",
+  "n_inst": 1000,
+  "device": "cuda",
+  "pool_k": 50,
+  "pool_seed_base": 770000,
+  "permute_labels": false,
+  "schemes": {
+    "sas_oneshot": {
+      "mean": 63.8507
+    },
+    "uniform_oneshot": {
+      "mean": 61.721764
+    },
+    "best_of_50": {
+      "mean": 65.517036
+    },
+    "sas_at_50": {
+      "mean": 63.942005
+    }
+  }
+}

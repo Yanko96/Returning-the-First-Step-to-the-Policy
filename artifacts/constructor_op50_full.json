@@ -1,0 +1,22 @@
+{
+  "n_inst": 10000,
+  "procs": 16,
+  "wall_s": 12.7,
+  "reference": 16.17,
+  "dataset": "op_dist50_test_seed1234.pkl",
+  "best_of_1": {
+    "mean_prize": 11.293695,
+    "mean_prize_first1000": 11.34276,
+    "gap_vs_compass": 30.156493506493515
+  },
+  "best_of_16": {
+    "mean_prize": 14.340158000000002,
+    "mean_prize_first1000": 14.38527,
+    "gap_vs_compass": 11.31627705627705
+  },
+  "best_of_5": {
+    "mean_prize": 13.751411,
+    "mean_prize_first1000": 13.832889999999999,
+    "gap_vs_compass": 14.957260358688945
+  }
+}

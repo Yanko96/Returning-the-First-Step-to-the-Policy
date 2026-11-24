@@ -1,0 +1,74 @@
+{
+  "ckpt": "checkpoints/pomo_op50_seed45/epoch099.ckpt",
+  "seed": 45,
+  "epochs": 10,
+  "steps": 2500,
+  "batch": 64,
+  "val_size": 2000,
+  "curve": [
+    {
+      "epoch": 0,
+      "val_oneshot_prize": 13.967260360717773
+    },
+    {
+      "epoch": 1,
+      "val_oneshot_prize": 15.664801597595215,
+      "mean_loss": -3.9652210438384907,
+      "elapsed_s": 166.4
+    },
+    {
+      "epoch": 2,
+      "val_oneshot_prize": 15.665514945983887,
+      "mean_loss": -12.085891752815247,
+      "elapsed_s": 334.8
+    },
+    {
+      "epoch": 3,
+      "val_oneshot_prize": 15.667961120605469,
+      "mean_loss": -20.15480789642334,
+      "elapsed_s": 508.5
+    },
+    {
+      "epoch": 4,
+      "val_oneshot_prize": 15.66656494140625,
+      "mean_loss": -28.2524580619812,
+      "elapsed_s": 680.2
+    },
+    {
+      "epoch": 5,
+      "val_oneshot_prize": 15.666596412658691,
+      "mean_loss": -36.397180641937254,
+      "elapsed_s": 851.8
+    },
+    {
+      "epoch": 6,
+      "val_oneshot_prize": 15.665200233459473,
+      "mean_loss": -44.43525110321045,
+      "elapsed_s": 1022.7
+    },
+    {
+      "epoch": 7,
+      "val_oneshot_prize": 15.664970397949219,
+      "mean_loss": -52.54801199035644,
+      "elapsed_s": 1192.2
+    },
+    {
+      "epoch": 8,
+      "val_oneshot_prize": 15.662481307983398,
+      "mean_loss": -60.64923477630615,
+      "elapsed_s": 1362.5
+    },
+    {
+      "epoch": 9,
+      "val_oneshot_prize": 15.662191390991211,
+      "mean_loss": -68.76532580566406,
+      "elapsed_s": 1531.4
+    },
+    {
+      "epoch": 10,
+      "val_oneshot_prize": 15.66244125366211,
+      "mean_loss": -76.87210360717773,
+      "elapsed_s": 1699.3
+    }
+  ]
+}
